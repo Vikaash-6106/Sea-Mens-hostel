@@ -1,0 +1,27 @@
+#content{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#admission_head{
+    font-size: 100px;
+    text-align: center;
+}
+#details_head{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+form{
+    padding: 40px;
+    line-height: 30px;
+}
+label{
+    font-size: 20px;
+}
+input{
+    width: 80%;
+    height: 30px;
+    font-family: monospace;
+    margin: 5px 0;
+}

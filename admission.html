@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>First Try</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='admission.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div id="header">
+       <div id="head_left">
+            <img id="biglogo_img" src="http://www.srieswaracademy.com/assets/images/biglogo.png">
+        </div>
+        <div id="head_center">
+            
+                <h1 style="text-align: center;color:black;">SEA MENS HOSTEL</h1>
+           </div>
+        <div id="head_right">
+            <h2><i id="contact_logo_header" class="fa fa-address-book"></i></h2>
+        </div>      
+    </div>
+    
+    <div id="up_line"></div>
+    <div id="nav_bar">
+        <marquee id="upper_marq" direction="left">admission opens for all</marquee>
+    </div>    
+    <div id="upper_tool_box">
+        <div id="tool_box_left"><img id="logo_img" src="http://www.srieswaracademy.com/extra-images/tt.jpg" style="padding-top: 25px;"></div>
+        <div id="tool_box_body">
+            <a href="first_try.html"><b>HOME</b></a>
+            <a href="gallery.html"><b>GALLERY</b></a>
+            <a href="name_list.html"><b>MEMBERS</b></a>
+            <a href="admission.html"><b>ADMISSION</b></a>
+            <a href="rules.html"><b>RULES</b></a>
+        </div>
+    </div>
+    <div class="w3-content">
+        <img class="mySlides" style="height: 700px;" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/41/35/1a/mosaic-hostel-belgrade.jpg?w=1200&h=-1&s=1">
+        <img class="mySlides" style="height: 700px;" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/41/35/0a/mosaic-hostel-belgrade.jpg?w=1200&h=-1&s=1">
+        <img class="mySlides" style="height: 700px;" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/41/34/d9/mosaic-hostel-belgrade.jpg?w=700&h=-1&s=1">
+      </div>
+    <div id="admission_head">
+        <b>ADMISSION</b>
+    </div>
+    <div id="content">
+        <br>
+        
+        <form action="https://formspree.io/f/xnqrqpdd" method="post" enctype="multipart/form-data">
+            <p id="details_head">ENTER YOUR DETAILS HERE:</p>
+            <label>NAME </label><br>
+            <input type="text" name="Name" placeholder="Enter Your Name..." required>
+            <br>
+            <label>COURSE</label><br>
+            <input list="courses" name="Course" placeholder="SELECT YOUR COURSES" required><br>
+                
+                <datalist id="courses">
+                    <option value="CA">
+                    <option value="CMA">
+                    <option value="CS">   
+                </datalist>
+            
+            <label>LEVEL </label><br>
+            <input list="levels" name="Level" placeholder="SELECT LEVEL" required><br>
+                
+                <datalist id="levels">
+                    <option value="FOUNDATION">
+                    <option value="INTERMIDIATE">
+                    <option value="FINAL">   
+                </datalist>
+            
+            <label>DATE OF BIRTH </label><br>
+            <input type="date" name="Date Of Birth" required><br>
+            <label>MOBILE NUMBER </label><br>
+            <input type="tel" name="Mobile Number" placeholder="ENTER YOUR MOBILE NUMBER" required><br>
+            <label>E.Mail</label><br>
+            <input type="email" name="E.mail" placeholder="ENTER YOUR E.MAIL ADDRESS" required><br>
+
+            <br><input type="submit">
+            
+        </form>
+
+    </div>
+    <div id="footer">
+
+    </div>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides") ;
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
+</body>
+</html>
+
+<!--
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+ https://www.geeksforgeeks.org/how-to-generate-pattern-password-in-android/ 
+    
+    https://www.geeksforgeeks.org/android-how-to-create-start-a-new-project-in-android-studio/
+
+    https://youtu.be/21zuS3i_0Ck
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------    
+
+    TEAM PHOTOS WEBPAGE:
+    https://www.w3schools.com/howto/howto_css_team.asphttps://www.w3schools.com/howto/howto_css_team.asp
+
+    PORTFOLIO WITH FILTERS WEBPAGE:
+    https://www.w3schools.com/howto/howto_js_portfolio_filter.asp
+
+    MAIL SENDER VIDEO:
+    https://youtu.be/aNSpnwkgwdk
+
+    https://youtu.be/rhLu9J33mi8
+
+    https://youtu.be/e2ParVVIgqs
+
+    https://youtu.be/sGQSz22U8VM {sent mail using java script } [best one]
+
+    https://youtu.be/kWEDY0rjS30  [using java script]
+
+    https://youtu.be/3H7hv3sWPXI {using java script}
+
+    https://youtu.be/ICyxr7tzo7Y {upload website on server for free}
+
+    https://youtu.be/8HMPgq3Dg0g {upload website on server by payment}
+
+    https://youtu.be/XVT8PkCo7Ao {upload website on server by payment}
+
+    https://youtu.be/KqBwG0LYY5E
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                elestic mail
+        login details :
+
+    email_id : vikivikaash10@gmail.com
+    password : 993@gmail 
+
+        server details :
+
+    USER NAME : vikaash@gmail.com
+    PASSWORD  : FA119D74CE16363041F25DADA6A40193DF68
+    SERVER    : smtp.elasticemail.com
+    PORT      : 2525
+
+-----------------------------------------------------------------------------------------------------------------------------------    
+
+                send grid login details
+    
+    email-id : vikivikaash10@gmail.com
+    password : thangavel993@gmail
+    username : vikaash                
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+    https://youtu.be/p1QU3kLFPdg {github upload and change domain}
+-->
